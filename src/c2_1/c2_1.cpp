@@ -74,13 +74,10 @@ public:
 
     void render(double currentTime)
     {
-
         GLfloat color[] = { 0.0f, 0.2f, 0.0f, 1.0f }; // Green
+
         glClearBufferfv(GL_COLOR, 0, color);
-
         glUseProgram(rendering_program);
-
-        //glPointSize(40.0f);
         glDrawArrays(GL_TRIANGLES, 0, 3);
     }
 
