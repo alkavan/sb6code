@@ -114,6 +114,8 @@ set(EXAMPLES
   toonshading
   tunnel
   wrapmodes
+  # my
+  c2_1
 )
 
 if (WIN32)
